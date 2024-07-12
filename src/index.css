@@ -1,0 +1,53 @@
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #6db32d, #52c661, #5cee83);
+  color: #ffffff;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+li span {
+  flex-grow: 1;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.todo-text {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
